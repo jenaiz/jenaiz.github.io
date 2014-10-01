@@ -1,0 +1,16 @@
+#profile {
+	clear: both;
+	height: 150px;
+}
+#profile_image {
+	float: left;
+	width: 100px;
+}
+#profile_desc {
+	float: left;
+	width: 450px;
+	padding-left: 50px;
+	padding-top: 30px;
+	font-size: 1.1em;
+
+}
