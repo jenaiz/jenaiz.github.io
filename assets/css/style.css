@@ -5,6 +5,7 @@
 #profile_image {
 	float: left;
 	width: 100px;
+	height: 100px;
 }
 #profile_desc {
 	float: left;
