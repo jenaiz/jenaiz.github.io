@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
+name: Smell the Code
 markdown: redcarpet
 pygments: true
+description: by Jesús Navarrete
+url: http://0.0.0.0:4000
+#url: http://jenaiz.github.io
+
+permalink: /:title
