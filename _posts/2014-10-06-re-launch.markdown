@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Re-launch"
+date:   2014-10-06 8:00:00
+categories: hello
+---
+
+So many times, I find myself writing a list of articles to read, writing notes about them or about books... but, not always, I write those notes in the same place. I took the decision that it is good if I put all of those notes together in the same place.
+
+One time ago, I used to write using [tumblr][blog], but it have not been updated a long time.
+
+I needed to put all those interesting notes, comments, ideas, investigations together. I think the evolution of those ideas, the experiences, the articles read... every of those could be interesting to share & collect here.
+
+[blog]: http://smellthecode.tumblr.com
