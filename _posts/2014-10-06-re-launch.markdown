@@ -2,7 +2,7 @@
 layout: post
 title:  "Re-launch"
 date:   2014-10-06 8:00:00
-categories: hello
+tags: hello
 summary: So many times, I find myself writing a list of articles to read, writing notes about them or about books...
 ---
 

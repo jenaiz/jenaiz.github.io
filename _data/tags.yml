@@ -1,0 +1,11 @@
+- slug: hello
+  name: Hello
+
+- slug: project-management
+  name: Project Management
+
+- slug: book
+  name: Books
+
+- slug: agile
+  name: Agile
