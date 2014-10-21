@@ -1,9 +1,8 @@
-name: Smell the Code
+name: jenaiz.com - Smell the Code
 markdown: redcarpet
 highlighter: true
 description: by Jesús Navarrete
-url: http://0.0.0.0:4000
-#url: http://jenaiz.github.io
+url: http://jenaiz.com
 
 permalink: /post/:title
 relative_permalinks: true
