@@ -4,5 +4,6 @@ highlighter: true
 description: by Jesús Navarrete
 url: http://jenaiz.com
 
-permalink: /post/:title
+#permalink: /post/:title
+permalink: /:year/:month/:title
 relative_permalinks: true
