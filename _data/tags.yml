@@ -9,3 +9,33 @@
 
 - slug: agile
   name: Agile
+
+- slug: machine-learning
+  name: Machine Learning
+
+- slug: pattern-recognition
+  name: Pattern Recognition
+
+- slug: apache-lucene
+  name: Apache Lucene
+
+- slug: apache-mahout
+  name: Apache Mahout
+
+- slug: text-classification
+  name: Text Classification
+
+- slug: deep-learning
+  name: Deep Learning
+
+- slug: papers
+  name: papers
+
+- slug: google
+  name: google
+
+- slug: distributed-systems
+  name: Distributed systems
+
+- slug: distbelief
+  name: DistBelief
