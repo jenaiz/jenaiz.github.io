@@ -1,6 +1,6 @@
 name: jenaiz.com - Smell the Code
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 description: by Jesús Navarrete
 url: http://jenaiz.com
 
