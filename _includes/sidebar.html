@@ -1,0 +1,22 @@
+<div class="col-md-4">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>Hi, my name is <em>Jesús Navarrete</em> and Smell the code is my personal blog. I am currently interested in Machine Learning and Distributed Systems. The opinions expresed here are my own. <a href="/about">[more]</a></p>
+  </div>
+  <hr>
+  <h4>Most read...</h4>
+  <div class="media">
+    <div class="media-body">
+      {% assign post = site.posts.first %}
+      <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      {{ post.summary }}
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-body">
+      {% assign post2 = site.posts[2] %}
+      <h4 class="media-heading"><a href="{{ post2.url }}">{{ post2.title }}</a></h4>
+      {{ post2.summary }}
+    </div>
+  </div>
+</div>

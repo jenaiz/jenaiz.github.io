@@ -3,7 +3,7 @@ layout: post
 title:  "The agile samurai"
 date:   2014-10-21 8:00:00
 tags: [book, agile, project-management]
-summary: "When you have done so many projects from scratch, using legacy code... different type of customers: banks, telecoms, retail, ..."
+summary: "When you have done so many projects from scratch, using legacy code... different type of customers: banks, telecoms, retail, ... in different type of companies (big, small, startups...), you always move to the next project thinking that you will do better the next time. But, how?"
 ---
 
 When you have done so many projects from scratch, using legacy code... different type of customers: banks, telecoms, retail, ... in different type of companies (big, small, startups...), you always move to the next project thinking that you will do better the next time. But, how?

@@ -3,7 +3,7 @@ layout: post
 title:  "Classifying documents using Apache Mahout"
 date:   2015-02-21 18:35:00
 tags: [machine-learning, apache-lucene, apache-mahout, text-classification]
-summary: "I was wondering how to do some text classification with Java and ..."
+summary: "I was wondering how to do some text classification with Java and <a href='http://mahout.apache.org/' target='_blank'>Apache Mahout</a>. <a href='http://drost-fromm.de/' target='_blank'>Isabel Drost-Fromm</a> gave a talk in the LuceneSolrRevolution Conference (Dublin - 2013) where she was speaking about the topic, how Apache Mahout and Lucene could help you."
 ---
 
 I was wondering how to do some text classification with Java and <a href="http://mahout.apache.org/" target="_blank">Apache Mahout</a>. <a href="http://drost-fromm.de/" target="_blank">Isabel Drost-Fromm</a> gave a talk in the LuceneSolrRevolution Conference (Dublin - 2013) where she was speaking about the topic, how Apache Mahout and Lucene could help you.
@@ -26,6 +26,8 @@ Mahout is a really good library for machine learning, it was using map reduce to
 <blockquote>The Mahout community decided to move its codebase onto modern data processing systems that offer a richer programming model and more efficient execution than Hadoop MapReduce. (You can read that in there web site).</blockquote>
 At the end of the video there is a recommendation to everyone to participate in the project: bug fixing, documentation, reporting bugs... There are a lot of things to do in open source projects always. If you are using the libraries there, I recommend you to subscribe to the mailing lists if you are interested in the project.
 
-https://www.youtube.com/watch?v=tA9YMlafUyw
+<iframe width="520" height="300"
+src="http://www.youtube.com/embed/tA9YMlafUyw?autoplay=0">
+</iframe>
 
 I really recommend you to see the video if you are interested in the field, I think she was giving a good talk about a good topic. You can take a look to the <a href="http://www.slideshare.net/lucenerevolution/lucene-mahout-drostfromm-copy">slides</a> too.

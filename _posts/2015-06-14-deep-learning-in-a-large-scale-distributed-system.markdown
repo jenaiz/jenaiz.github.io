@@ -8,7 +8,9 @@ summary: "Deep learning is interesting in many ways. But when you consider to d
 
 Deep learning is interesting in many ways. But when you consider to do it in thousands of cores that can process millions of parameters, then the problem is more interesting and complex at the same time.
 
-<img src="/assets/images/datacenter.jpg" alt="" width="690" /> Google Datacenter (via Google)
+<img src="/assets/images/datacenter.jpg" alt="" width="690" />
+
+<small>Google Datacenter (via Google)</small>
 
 Google was doing an interesting experiment, training a deep network with millions of parameters in thousands of CPUs. The goal was to train very large datasets without to limit the form of the model.
 

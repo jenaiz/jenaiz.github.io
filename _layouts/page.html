@@ -1,31 +1,19 @@
 ---
-layout: bootstrap
+layout: writer
 date:   2014-10-06 8:00:00
 ---
 
-<div class="hero-image hero-a-great-story" style=""></div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 main-content single-content">
-      <div class="nav">
-        <a href="/" class="select-posts active">home</a>
-        <a href="/about" class="select-categories">about</a>
-        <a href="http://github.com/jenaiz" target="_blanck" class="select-categories">github</a>
-      </div>
-      <br/>
-
-      <p class="meta">
-        <i class="entypo-bookmark"></i> {{ page.date | date_to_string }}
-      </p>
-
-      <h1>{{ page.title }}</h1>
-
-      {{ content }}
-
-      <div class="home-footer">
-        By <a href="https://twitter.com/jenaiz">Jes&uacute;s Navarrete</a>, Copyright 2006 - 2015 All Rights reserved. <i class="link-spacer"></i> <a href="#">Back to top</a>
-      </div>
-    </div>
+<div class="col-md-8">
+  <h3><a href="#">{{ page.title }}</a></h3>
+  <p>Written on {{ page.date | date_to_string }}</p>
+  <p>
+    {{ content }}
+  </p>
+</div>
+<div class="col-md-4">
+  <div class="sidebar-module sidebar-module-inset">
+    <img src="https://pbs.twimg.com/profile_images/658731573408346112/KVXuh2RR.png" width="50%">
+    <h4>About</h4>
+    <p>Hi, my name is <em>Jesús Navarrete</em> and <em>Smell the code</em> is my personal blog. I am currently interested in Machine Learning and Distributed Systems. The opinions expresed here are my own.</p>
   </div>
 </div>

@@ -1,8 +1,9 @@
 ---
-layout: bootstrap
+layout: writer
 ---
+
 {% if page.tags.size > 0 %}
-    {% capture tags_content %}Published in{% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+    {% capture tags_content %}<strong>Tags:</strong>{% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} {% endcapture %}
     {% for post_tag in page.tags %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == post_tag %}
@@ -10,7 +11,7 @@ layout: bootstrap
             {% endif %}
         {% endfor %}
         {% if tag %}
-            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/"><span class="label label-default">{{ tag.name }}</span></a> {% endcapture %}
             {% assign tags_content = tags_content_temp %}
         {% endif %}
     {% endfor %}
@@ -18,34 +19,30 @@ layout: bootstrap
     {% assign tags_content = '' %}
 {% endif %}
 
-<div class="hero-image hero-a-great-story" style=""></div>
+      <div class="col-md-8">
+        <!--div class="panel panel-default">
+          <div class="panel-body"-->
+            <h3><a href="#">{{ page.title }}</a></h3>
+            <p>
+              <img src="https://pbs.twimg.com/profile_images/658731573408346112/KVXuh2RR.png" width="30px" class="img-circle">
+              Written by <a href="">Jenaiz</a> on {{ page.date | date_to_string }}
+            </p>
 
-<div class="container">
-  <div class="row">
+            {{ content }}
 
-    <div class="col-xs-12 main-content single-content">
-      <div class="nav">
-        <a href="/" class="select-posts active">home</a>
-        <a href="/about" class="select-categories">about</a>
-        <a href="http://github.com/jenaiz" target="_blanck" class="select-categories">github</a>
+            <p>
+              {{ tags_content }} <i class="entypo-bookmark"></i>
+            </p>
+          <!--/div>
+        </div-->
+        <br><br>
       </div>
-      <br/>
 
-      <h1>{{ page.title }}</h1>
-      <p class="meta">
-        {{ tags_content }} <i class="entypo-bookmark"></i> {{ page.date | date_to_string }}
-      </p>
+      {% include sidebar.html %}
 
-      {{ content }}
+      <hr>
 
-      <div id="disqus_thread"></div>
-
-      <div class="home-footer">
-        By <a href="https://twitter.com/jenaiz">Jes&uacute;s Navarrete</a>, Copyright 2006 - 2015 All Rights reserved. <i class="link-spacer"></i> <a href="#">Back to top</a>
-      </div>
-    </div>
-  </div>
-</div>
+<div id="disqus_thread"></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
