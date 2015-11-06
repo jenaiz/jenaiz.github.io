@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: apache-mahout
-permalink: apache-mahout/
+permalink: blog/tag/apache-mahout/
 ---

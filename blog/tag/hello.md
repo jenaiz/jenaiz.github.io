@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: hello
-permalink: hello/
+permalink: blog/tag/hello/
 ---

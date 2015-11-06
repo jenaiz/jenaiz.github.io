@@ -1,5 +1,5 @@
 ---
-layout: page_writer
+layout: page
 title: about
 date:   2014-10-06 8:00:00
 ---

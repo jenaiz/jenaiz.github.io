@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: apache-lucene
-permalink: apache-lucene/
+permalink: blog/tag/apache-lucene/
 ---

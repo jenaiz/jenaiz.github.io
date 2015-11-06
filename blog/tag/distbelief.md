@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: distbelief
-permalink: distbelief/
+permalink: blog/tag/distbelief/
 ---

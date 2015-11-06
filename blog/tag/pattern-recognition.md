@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: pattern-recognition
-permalink: pattern-recognition/
+permalink: blog/tag/pattern-recognition/
 ---

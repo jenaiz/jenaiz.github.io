@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: agile
-permalink: agile/
+permalink: blog/tag/agile/
 ---

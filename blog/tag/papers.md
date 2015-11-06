@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: papers
-permalink: papers/
+permalink: blog/tag/papers/
 ---

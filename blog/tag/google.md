@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: google
-permalink: google/
+permalink: blog/tag/google/
 ---
