@@ -8,7 +8,7 @@ summary: "Deep learning is interesting in many ways. But when you consider to d
 
 Deep learning is interesting in many ways. But when you consider to do it in thousands of cores that can process millions of parameters, then the problem is more interesting and complex at the same time.
 
-<img src="/assets/images/datacenter.jpg" alt="" width="690" />
+<img src="/assets/images/datacenter.jpg" alt="" width="600px" align="middle" />
 
 <small>Google Datacenter (via Google)</small>
 
